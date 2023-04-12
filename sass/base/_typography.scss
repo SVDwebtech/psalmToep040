@@ -4,20 +4,63 @@ body {
 	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 1.6;
-
 }
 
-.headingH1 {}
-.headingH2 {}
+.headingH1 {
+	line-height: 1.2;
+
+	&__primaryHeading {
+		color: $cf-tigerseye;
+		font-size: clamp(2.5rem, 7vw, 7rem);
+		font-weight: 900;
+		letter-spacing: 3px;
+		margin-bottom: $mb-h1;
+	}
+
+	&__primaryHeadingByline {
+		color: $cf-earthyellow;
+		font-size: clamp(1.5rem, 3vw, 3rem);
+		font-weight: 700;
+		letter-spacing: 3px;
+		margin-bottom: $mb-h4;
+	}
+	
+	&__primaryHeadingParagraph{
+		color: $cf-cornsilk;
+		font-size: clamp(1rem, 2vw, 2rem);
+		font-weight: 400;
+		letter-spacing: 3px;
+		line-height: 1.5;
+		margin-bottom: $mb-p;
+	}
+	
+}
+.headingH2 {
+	color: $cf-tigerseye;
+	font-size: clamp(1.5rem, 3vw, 3rem);
+	font-weight: 900;
+	letter-spacing: 3px;
+	line-height: 1.2;
+}
+
 .headingH3 {}
 .headingH4 {}
 
 .paragraph {
-	
+	color: $cf-dark;
+	font-size: clamp(1rem, 2vw, 2rem);
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-bottom: $mb-p;
 }
 
 .btn {
-	
+	color: $cf-dark;
+	font-size: clamp(1rem, 2vw, 2rem);
+	font-weight: 900;
+	letter-spacing: 2px;
+	margin-bottom: $mb-btn;
 }
 
 

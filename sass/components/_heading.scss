@@ -1,1 +1,10 @@
+.headingH1 {
+    & span {
+        display: block;
+    }
+}
+
+.headingH2 {
+    margin-bottom: $mb-h2;
+}
 

@@ -1,3 +1,7 @@
-main {
-    
+.main {
+    padding: 2rem;
+
+    &__moreInfo, &__psalmToep {
+        margin-bottom: $mb-section;
+    }
 }

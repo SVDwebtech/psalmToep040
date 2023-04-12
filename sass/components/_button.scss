@@ -3,9 +3,12 @@
 }
 
 .btn {
-    
-    
-    
+    display: block;
+    background-color: $cp-tigerseye;
+    border-radius: $br-sm;
+    box-shadow: $bs-btn;
+    width: fit-content;
+    padding: .25em 1em;
 }
 
 .btn:hover { 
